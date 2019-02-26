@@ -150,7 +150,6 @@ public class FileManager extends Application {
         stage.show();
     }
 
-
     @SuppressWarnings("unused")
     public interface FileNodeIterator {
 
@@ -570,7 +569,6 @@ public class FileManager extends Application {
         }
     }
 
-
     public static class RenameFileCommand extends Command {
 
         RenameFileCommand(TextFieldTreeCellImpl treeCell) {
@@ -722,7 +720,6 @@ public class FileManager extends Application {
         }
     }
 
-
     public static class CutCommand extends Command {
 
         CutCommand(TextFieldTreeCellImpl treeCell) {
@@ -807,7 +804,6 @@ public class FileManager extends Application {
         }
     }
 
-
     public static class CopyPasteContext {
 
         private FileObj originFileObj, destnFileObj;
@@ -875,4 +871,5 @@ public class FileManager extends Application {
         }
 
     }
+
 }
